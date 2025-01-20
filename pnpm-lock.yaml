@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@getatomi/neon':
-    specifier: 58.0.0-PROD-8410.34
-    version: 58.0.0-PROD-8410.34(react-dom@17.0.2)(react@17.0.2)(styled-components@6.1.14)
+    specifier: 58.0.0-PROD-8410.36
+    version: 58.0.0-PROD-8410.36(react-dom@17.0.2)(react@17.0.2)(styled-components@6.1.14)
   '@vanilla-extract/css':
     specifier: ^1.17.0
     version: 1.17.0
@@ -1842,8 +1842,8 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@getatomi/neon@58.0.0-PROD-8410.34(react-dom@17.0.2)(react@17.0.2)(styled-components@6.1.14):
-    resolution: {integrity: sha512-Bh7ElGkDn7RrYe1voRGEyxS8HS7HbDxUSmHTwRHJlCZ/7x7lmVlT1tVVkl4RjXoBUbDyD3KRjdLnU5jTskz3Bw==}
+  /@getatomi/neon@58.0.0-PROD-8410.36(react-dom@17.0.2)(react@17.0.2)(styled-components@6.1.14):
+    resolution: {integrity: sha512-tl9iJNaoeJKGyCymcnrEB+qfaG98wug7wpyf8qzroo4A/tL5BfyqaPe4jJbXcPcsU97rFZH49Ns3F7/3W0vU6A==}
     engines: {node: '>=14'}
     peerDependencies:
       '@getatomi/browserslist-config': ^6.1.1
