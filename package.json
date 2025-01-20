@@ -1,0 +1,32 @@
+{
+  "name": "neon-razzle-vanilla-extract",
+  "version": "4.2.15",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "@getatomi/neon": "58.0.0-PROD-8410.34",
+    "@vanilla-extract/css": "^1.17.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^6.1.14"
+  },
+  "devDependencies": {
+    "@vanilla-extract/webpack-plugin": "^2.3.16",
+    "babel-preset-razzle": "4.2.15",
+    "html-webpack-plugin": "^4.5.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "path-browserify": "^1.0.1",
+    "razzle": "^4.2.18",
+    "razzle-dev-utils": "^4.2.18",
+    "webpack": "^5.90.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
